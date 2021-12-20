@@ -10,6 +10,21 @@
 </head>
 
 <body>
+    <!-- pop-up -->
+    <button data-modal-open type="button">Открыть pop-up</button>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" data-modal-close class="modal-btn">
+                X
+            </button>
+            <div>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus pariatur eveniet excepturi consequuntur
+                voluptates placeat error at obcaecati quaerat hic.
+            </div>
+        </div>
+    </div>
+    <!-- Form -->
     <form id="form" class="form">
         <label class="form-label" for="number1">Введите свое число
             <input class="form-input" id="number1" type="number" name="number1">
