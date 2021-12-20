@@ -22,6 +22,7 @@
 }
 
 .form-input {
+  width: 40px;
   border-radius: 5px;
   padding: 5px;
   outline: #d1caff;
@@ -35,7 +36,10 @@
 }
 
 .form-label_list {
-  margin-left: 118px;
+  width: 52px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 102px;
   outline: #d1caff;
   border: 1px solid #d1caff;
 }
